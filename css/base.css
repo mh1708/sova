@@ -926,7 +926,7 @@ button.owl-next {
     display: inline-block;
     position: absolute;
     right: -5px;
-    top: 20px;
+    top: 15px;
 }
 .nav__right{
     transform: rotate(-90deg);
