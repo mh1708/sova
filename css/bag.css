@@ -1,0 +1,366 @@
+*{
+    font-family: var(--font-mulis);
+    color: var(--page-bag);
+    font-size: 16px
+}
+
+.header__cart{
+
+box-shadow: 0px 5px 100px rgba(21, 21, 21, 0.04);
+}
+.header-cart__record{
+
+padding: 34px 0;
+}
+.header-cart__list{
+
+}
+.header-cart__item{
+
+padding: 0 20px;
+}
+.header-cart__link{
+
+}
+.header-cart__logo-text{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+.header-use__item{
+    padding: 0 22px;
+}
+
+.header-use__link{
+
+}
+.header-use__img{}
+
+
+.order__name{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    text-transform: uppercase;
+}
+
+.order-info__code{
+    color: #6E7582;
+}
+.order__head{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 42px;   
+    margin: 21px -15px 0;
+}
+
+.value__box{
+    width: 35px;
+    border: 0;
+    text-align: center;
+    padding: 5px;
+    background: #f8f8f9;
+    cursor: pointer;
+}
+.value__caculate{
+    padding: 5px;
+    font-size: 30px;
+}
+.order__price{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: var(--primary--color);
+}
+.order__price-contact{
+    font-family: var(--font-Bodoni);
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 500;
+}
+.order__history{
+    padding: 40px;
+    border: 1px solid #B7BAC0;
+}
+.order__amount{
+
+    padding-left: 42px;
+}
+
+.order__left{
+    padding: 0 15px;
+    margin: 0 -15px;
+}
+.order__summarry{
+    padding: 0 15px;
+
+}
+.orde-contact__text{
+    width: 100%;
+}
+
+
+.order__close{
+    cursor: pointer;
+    /* margin-left: 47px; */
+}
+
+.order__bill{
+    border: 1px solid #B7BAC0;
+    padding: 36px 45px;
+}
+.order-bill__top{
+padding: 0 15px;
+}
+.order-bill__head{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 42px;
+    /* padding: 0 15px; */
+}
+.order-bill__item{
+    position: relative;
+    display: flex;
+    margin-top: 35px;
+    justify-content: space-between;
+}
+.order-bill__info {
+    width: 72%;margin-left: 25px;
+}
+
+.order-bill__code{
+    color: #6E7582;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+}
+.order__price-bag{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    margin: 0;
+    margin-top: 8px;
+}
+
+.order-bill__name{
+    font-weight: 300;
+}
+.form__coupon{
+    padding-bottom: 31px;
+    border-bottom: 1px solid rgba(183, 186, 192, 0.5);
+}
+.code__product{
+    width: 290px;
+    padding: 10px 14px;
+}
+.order-subtotal__text{
+    font-size: 18px;
+    line-height: 23px;
+}
+.order__carton{
+    padding: 12px 0; 
+}
+.order__total-price{
+    padding: 31px 0;
+    border-top: 1px solid rgba(183, 186, 192, 0.5);
+}
+.order__total{
+    padding: 0 15px;
+    padding-top: 20px;
+}
+.footer__policy{
+    padding-top: 103px;
+}
+.footer-policy__list{
+
+}
+.footer-policy__item{
+    padding: 0 25px;
+}
+.footer-policy__link{
+    
+}
+.order__address{
+    border: 1px solid #B5ABAA;
+    padding: 40px 40px 0 40px;
+    margin-bottom: 20px;
+
+}
+
+
+.order-contact__head{
+    margin-bottom: 30px;
+}
+.order-contact__text{
+    margin-bottom: 9px;
+}
+.order-contact__mail{
+    font-size: 16px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.order-email__input{
+    display: block;
+    width: 100%;
+    padding: 15px 0 15px 10px;
+    margin-bottom: 10px;
+    border: 1px solid #EDE8E7;
+}
+.select__wrapper{
+    position: relative;
+}
+.select__wrapper::after{
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-top: 3px solid var(--primary--color);
+    border-left: 3px solid var(--primary--color);
+    transform: rotate(225deg);
+    position: absolute;
+    right: 20px;
+    top: 55%;
+}
+.order__creadit{
+    padding: 0 15px;
+}
+.order__size-contact{
+    margin: 10px 0;
+}
+.creadit__item{
+    padding: 0 9px;
+}
+.credit__list{
+    
+padding: 0 6px;
+}
+.creadit__link{
+    display: block;
+}
+.order-bill__contact{
+    max-width: 231px;
+}
+.order__recycle{
+    width: 24px;
+    height: 24px;
+    display: block;
+}
+.order__size-contact{
+    margin: 10px 0;
+}
+.orde-contact__text{
+    padding: 0 15px;
+}
+.order-bill__type {
+    padding: 0 15px;
+    margin-bottom: 8px;
+
+}
+.order-info__name{
+    
+font-weight: 600;
+    
+text-transform: uppercase;
+    
+font-size: 18px;
+    
+line-height: 23px;
+}
+.order-bill__image{
+
+}
+.active{
+    background-color: var(--button--orange);
+    cursor: pointer;
+}
+.form__submit  {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin: 0;
+}
+.order-bill__product{
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.btn.btn__back{
+    font-family: var(--font-Bodoni);
+    line-height: 20px;
+    font-weight: 500;
+    width: 208px;
+    padding: 16px 0;
+    position: relative;
+}
+.btn.btn__back::before{
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid var(--primary--color);
+    border-left: 2px solid var(--primary--color);
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 20px;
+    left: -20px;
+ 
+}
+.order{
+    padding-top: 30px;
+}
+.hidden__number{
+    width: 4px;
+    height: 4px;
+    background: #060520;
+    border-radius: 4px;
+    display: inline-block;
+}
+.card__bank {
+    padding: 0 15px;
+}
+.card__number{
+    margin: 0 10px;
+}
+.order__text{
+    color: #6E7582;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 2px;
+}
+.order-bill__list{
+    margin-top: 30px;
+}
+
+.order__text.date__ceated{
+    margin-left: 70px;
+} 
+.order__address--big{
+    padding-bottom: 40px;
+}
+.order__address--small{
+    padding-bottom: 30px;
+}
+.button__cart{
+    position: relative;
+}
+.button__cart::after{
+    content: "2";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: -20px;
+    border-radius: 20px;
+    background-color: var(--button--orange);
+    color: var(--white--color);
+    padding: 4px;
+    right: -20px;
+}
+.order__price-small {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+}

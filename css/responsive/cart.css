@@ -1,0 +1,234 @@
+@media only all and (max-width: 1400px) {
+    .order__left{
+        margin: 0;
+    }
+    .order{
+        padding: 15px;
+    }
+    .form__coupon {
+        position: relative;
+    }
+    .btn__code{
+        position: absolute;
+        right: 0px;
+        height: 43px;
+    }
+    .order__history {
+        padding: 5px;
+    }
+    .order__recycle{
+        position: absolute;
+        right: 0;
+    }
+    .order-bill__item{
+        justify-content: unset;
+    }
+}
+
+@media only all and (max-width: 1200px) {
+    #wrappper{
+        overflow: hidden;
+    }
+    .header__cart{
+        padding: 0 30px;
+        position: relative;
+    }
+    .order__left{
+        padding: 0;
+    }
+    .header__user::after{
+        content: none;
+    }
+   
+    .header__user{
+        left: 0;
+        width: 100%;
+        top: 100px;
+    }
+    .header__favor{
+        left: 0;
+        width: 100%;
+        top: 100px;
+    }
+    .header__favor::after{
+        content: none;
+    }
+    .header__use-item{
+        position: unset;
+    }
+    .header__favor--info{
+        width: 85%;
+    }
+    .order__right{
+        margin-top: 50px;
+    }
+    .order__preview .order__address{
+
+    }
+    
+   
+  
+    
+}
+
+@media only all and (max-width: 1024px) {
+    .code__product {
+        width: 100%;
+    }
+    .btn__code {
+        height: 43px;
+    }
+    .order-bill__info {
+        width: 90%;
+    }
+    
+}
+
+@media only all and (max-width: 992px) {
+    .order__amount {
+        margin-left: -30px;
+    }
+}
+
+@media only all and (max-width: 768px) {
+    .header__cart{
+        padding: 0 30px;
+        position: relative;
+    }
+    .order__history {
+        display: block;
+        padding: 20px;
+        text-align: center;
+    }
+    
+  
+    .order__history {
+        padding: 20px;
+    }
+    .value__box {
+        width: 33%;
+        margin-top: 20px;
+   }
+   .order__close--overlay{
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+    .footer__policy{
+        padding: 50px 0;
+    }
+    
+}
+
+@media only all and (max-width: 600px) {
+    .header-cart__list{
+        display: none;
+    }
+   
+    .order{
+        padding: 15px;
+    }
+    .order__list {
+        justify-content: center;
+    }
+   
+    .order-info__code {
+        display: none;
+    }
+  
+    .order-info__name{
+        margin-bottom: 20px;
+    }
+    .order__amount{
+        margin-top: 20px;
+        padding-left: 0;
+        justify-content: center;
+        /* margin-left: 0; */
+    }
+    .order__history{
+        position: relative;
+    }
+  
+    .code__product {
+        padding: 9px;
+    }
+    .order__bill {
+        padding: 20px;
+    }
+    .order-bill__product{
+        display: block;
+       
+    }
+    .order-bill__info{
+        margin-left: 0;
+        width: 100%;
+    }
+    .order__right{
+        margin-top: 30px;
+    }
+    .order__summarry {
+        padding: 0;
+    }
+  
+    .header__favor-img {
+        margin: 10px;
+    }
+    .header__favor--info{
+        width: 65%;
+    }
+    .order__head{
+        margin: 21px 0;
+    }
+    .credit__list {
+        padding: 0 10px;
+    }
+  
+   
+
+}
+
+@media only all and (max-width: 576px) {
+   
+    .order__address{
+        padding: 40px;
+    }
+    .orde-contact__text {
+        margin-bottom: 20px;
+    }
+    .form__check:checked+.label__head>.checkbox__after {
+        width: 45px;
+        height: 30px;
+    }
+    .label__head>.checkbox__after{
+        width: 45px;
+        height: 30px;
+
+    }
+    .form__check:checked+.label__head>.checkbox__after::before {
+        top: 19px;
+        left: 8px;
+    }
+    .btn__continue {
+        width: 100%;
+    }
+    
+    
+  
+}
+@media only all and (max-width: 480px) {
+
+}
+@media only all and (max-width: 320px) {
+    .code__product {
+        width: 129px;
+    }
+    .footer-policy__item {
+        padding: 0 15px;
+
+    }
+    .btn__code {
+        height: 40px;
+        width: 100px;
+    }
+    
+}
