@@ -572,7 +572,7 @@
     height: 52px;
     line-height: 52px;
     color:  var(--black-secondary);
-    background: #EDE8E7;
+    background: var(--color-grey);
     font-family: var(--font-mulis);
 }
 
